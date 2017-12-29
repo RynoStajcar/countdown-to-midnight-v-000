@@ -8,10 +8,9 @@ end
 
 def countdown_output(number)
   until number == 0
-    return "#{number} SECOND(S)"
+    puts "#{number} SECOND(S)"
     number -= 1
   end
-  return "finished"
 end
 
 def countdown_with_sleep
