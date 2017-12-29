@@ -1,15 +1,17 @@
 #write your code here
 
 def countdown(number)
-  if number == 12
-    return "HAPPY NEW YEAR!"
-  end
-elsif number == 10
-    puts "-#{number} SECOND(S)!"
+  until number == 0
+    puts "#{number} SECOND(S)"
     number -= 1
   end
-end
+  return "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep
+  until number == 0
+    puts "#{number}"
+    number -= 1
+    sleep(1)
+  end
 end
