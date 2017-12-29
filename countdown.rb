@@ -8,11 +8,11 @@ end
 
 def countdown_output(number)
   until number == 0
-    number -= 1
     return "#{number} SECOND(S)"
+    number -= 1
   end
   return "finished"
-end 
+end
 
 def countdown_with_sleep
 end
