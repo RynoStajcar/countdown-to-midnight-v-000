@@ -9,6 +9,7 @@ elsif number == 10
     number -= 1
   end
 end
+end
 
 def countdown_with_sleep
 end
